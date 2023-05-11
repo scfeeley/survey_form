@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="utf-8">
+        <title>Favorite Programming Language</title>
+        <link rel="stylesheet" href="styles.css"
+    </head>
+    <body>
+        <h1>Choose Your Favorite Language</h1>
+        <p id="description">We are surverying App Academy to determine the student and faculty's favorite language.</p>
+        <div class="container">
+            <div class="left">
+
+            </div>
+        <form>
+            <fieldset>
+                <legend>Add User</legend>
+                <section>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                </section>
+                <section>
+                <div>
+                    <p>Choose your favorite programming language:
+                        <div>
+                            <input type="radio" id='html' name="language" value="html">
+                            <label for="html">HTML</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="css" name="language" value="css">
+                            <label for="css">CSS</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="js" name="language" value="javascript">
+                            <label for="js">JavaScript</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="other_lang" name="other" value="other_lang">
+                            <label for="other_lang">Other Language</label>
+                        </div>
+                    </p>
+                </div>
+                </section>
+
+                <section>
+                <div>
+                   <div><label for="comments">Comments:</label></div>
+                    <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Add comments here..."></textarea>
+                </div>
+
+                <div>
+                    <label for="date">Current Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                </section>
+                <section>
+                <div>
+                    <input type="checkbox" id="newsletter" value='newsletter' name="newsletter">
+                    <label for="newsletter">Sign up for newsletter</label>
+                    <br>
+                    <input type="checkbox" id="terms" name="terms" value='terms'required>
+                    <label for="terms">Agree to terms and conditions</label>
+                </div>
+                </section>
+                <div class='submit_button'>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+        <div class="right"></div>
+        </div>
+    </body>
+</html>
